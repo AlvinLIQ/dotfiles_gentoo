@@ -1,0 +1,25 @@
+window{
+	background-color: rgba(0.0, 0.0, 0.0, 0.0);
+	color: #fff;
+}
+#custom-title, #custom-clock, #battery, #cpu, #memory, #network, #wireplumber {
+	padding: 8px 10px;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+#custom-title, #custom-clock, #network, #wireplumber, #battery{
+	background-color: rgba(0.1, 0.2, 0.3, 0.4);
+}
+#battery.charging, #battery.plugged {
+	color: #fff;
+}
+#battery.critical:not(.charging) {
+	color: rgba(160, 96, 96, 0.8);
+}
+#taskbar button, #taskbar button:not(.active) + #custom-title {
+	background: transparent;
+	outline-color: transparent;
+	border-color: transparent;
+	color: transparent;
+	box-shadow: none;
+}
