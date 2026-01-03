@@ -1,0 +1,13 @@
+dev-qt/qt-creator designer
+>=dev-qt/qttools-6.8.1 designer qml
+# required by kde-frameworks/kcoreaddons-6.10.0::gentoo
+# required by net-im/telegram-desktop-5.12.3-r3::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.8.2-r2 icu
+# required by media-gfx/blender-4.2.4-r1::gentoo[ffmpeg]
+# required by @selected
+# required by @world (argument)
+>=media-video/ffmpeg-6.1.2-r1 lame
+#
+>=dev-qt/qt5compat-6.8.2-r1 icu

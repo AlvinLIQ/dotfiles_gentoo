@@ -1,0 +1,11 @@
+x11-drivers/nvidia-drivers kernel-open X
+dev-cpp/cairomm X
+dev-cpp/gtkmm X
+# required by x11-drivers/nvidia-drivers-550.144.03::gentoo[tools]
+# required by x11-drivers/nvidia-drivers (argument)
+>=x11-libs/gtk+-3.24.42-r1 X
+=x11-libs/gtk+-3.24.41 X
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by x11-drivers/nvidia-drivers-550.144.03::gentoo[tools]
+# required by x11-drivers/nvidia-drivers (argument)
+>=x11-libs/cairo-1.18.2-r1 X

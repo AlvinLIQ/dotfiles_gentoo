@@ -2,13 +2,16 @@ window{
 	background-color: rgba(0.0, 0.0, 0.0, 0.0);
 	color: #fff;
 }
-#custom-title, #custom-clock, #battery, #cpu, #memory, #network, #wireplumber {
+* {
+	font-family: "Source Sans 3", "Font Awesome 6 Free";
+}
+#custom-title, #custom-clock, #custom-power, #battery, #cpu, #memory, #network, #wireplumber, #tray{
 	padding: 8px 10px;
 	margin-right: 10px;
 	border-radius: 4px;
 }
-#custom-title, #custom-clock, #network, #wireplumber, #battery{
-	background-color: rgba(0.1, 0.2, 0.3, 0.4);
+#custom-title, #custom-clock, #custom-power, #network, #wireplumber, #battery, #tray{
+	background-color: rgba(0.1, 0.2, 0.3, 0.8);
 }
 #battery.charging, #battery.plugged {
 	color: #fff;

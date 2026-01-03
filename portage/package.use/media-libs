@@ -1,0 +1,2 @@
+media-libs/glfw wayland
+media-libs/vulkan-loader layers

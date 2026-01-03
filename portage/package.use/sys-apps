@@ -1,0 +1,4 @@
+sys-apps/systemd boot policykit
+# required by net-misc/networkmanager-1.48.10-r1::gentoo[wifi,-iwd]
+# required by networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r5 dbus

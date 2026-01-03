@@ -1,12 +1,11 @@
 {
 	"layer": "top",
-	"output": "eDP-1",
 	"margin-top": 10,
 	"margin-left": 16,
 	"margin-right": 6,
-	"modules-left": ["custom/clock", "wireplumber", "wlr/taskbar"],
+	"modules-left": ["custom/clock", "wireplumber"],
 	"modules-center": ["custom/title"],
-	"modules-right": ["network", "battery"],
+	"modules-right": ["tray", "network", "battery", "custom/power"],
 	"wireplumber": {
 		"format": "{icon} {volume}%",
 		"format-bluetooth": "{icon} {volume}%",
@@ -37,6 +36,10 @@
 		"format-alt": "{time} {icon}",
 		"format-icons": ["", "", "", "", ""]
 	},
+	"tray": {
+		"icon-size": 21,
+		"spacing": 10
+	},
 	"custom/clock": {
 		"exec": "echo '  '$(date +'📅 %a %b %d  %H:%M')'  '",
 		"interval": 5
@@ -45,11 +48,8 @@
                 "exec": "echo `niri msg -j focused-window | jq -r 'select(.!=null).title'`",
 		"signal": 18
         },
-	"wlr/taskbar": {
-		"format": "",
-		"sort-by-app-id": true,
-		"all-outputs": true,
-		"tooltip": false,
-		"on-update": "pkill -RTMIN+18 waybar"
+	"custom/power":{
+		"on-click": "wlogout --protocol layer-shell",
+		"format": " ⏻ "
 	}
 }

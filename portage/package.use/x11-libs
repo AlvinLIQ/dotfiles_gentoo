@@ -1,0 +1,106 @@
+# required by gnome-extra/nemo-6.2.8::gentoo
+# required by nemo (argument)
+>=x11-libs/xapp-2.8.5 introspection
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test,gui]
+# required by @selected
+# required by @world (argument)
+>=net-misc/spice-gtk-0.42-r4 usbredir
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test,gui]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/dbus-1.15.8 X
+# required by app-editors/zed-0.182.9::gentoo
+# required by app-editors/zed (argument)
+>=media-libs/vulkan-loader-1.4.309.0 X
+# required by app-editors/zed-0.182.9::gentoo
+# required by app-editors/zed (argument)
+>=x11-libs/libxkbcommon-1.8.1 X
+# required by dev-python/pycairo-1.28.0::gentoo[-test]
+# required by dev-python/pygobject-3.50.0::gentoo[cairo]
+# required by app-emulation/virt-manager-5.0.0-r2::gentoo[python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.18.4 -X
+# required by x11-libs/gtk+-3.24.48::gentoo
+# required by gnome-extra/nemo-6.2.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.18.4 X
+# required by dev-python/pygobject-3.50.0::gentoo
+# required by gnome-extra/nemo-6.2.8::gentoo[python_single_target_python3_13]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pycairo-1.28.0 X
+# required by net-libs/gnutls-3.8.9-r1::gentoo[pkcs11]
+# required by net-print/cups-2.4.11::gentoo[-openssl]
+# required by media-sound/spotify-1.2.59::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/p11-kit-0.25.5 abi_x86_32
+# required by media-libs/openal-1.24.2::gentoo[jack]
+# required by net-im/telegram-desktop-5.12.3-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/jack-2 abi_x86_32
+# required by virtual/jack-2::gentoo
+# required by media-libs/openal-1.24.2::gentoo[jack]
+# required by net-im/telegram-desktop-5.12.3-r5::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-sound/jack2-1.9.22 abi_x86_32
+# required by media-gfx/blender-4.4.3::gentoo[bullet]
+# required by blender (argument)
+>=sci-physics/bullet-3.21 double-precision
+# required by media-gfx/blender-4.4.3::gentoo[fftw]
+# required by blender (argument)
+>=sci-libs/fftw-3.3.10-r1 threads
+# required by media-gfx/blender-4.4.3::gentoo[opensubdiv]
+# required by blender (argument)
+>=media-libs/opensubdiv-3.6.0-r2 tbb
+# required by dev-qt/qtx11extras-5.15.16::gentoo
+# required by media-gfx/renderdoc-1.36::gentoo[qt5]
+# required by renderdoc (argument)
+# required by sys-boot/os-prober-1.82::gentoo
+# required by os-prober (argument)
+>=sys-boot/grub-2.12-r7 mount
+# required by media-video/obs-studio-31.1.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtbase-6.9.1-r3 X
+# required by gnome-extra/nemo-6.4.5::gentoo
+# required by nemo (argument)
+>=dev-libs/libxmlb-0.3.21 introspection
+# required by dev-qt/qtwebengine-6.9.1-r1::gentoo
+# required by app-editors/ghostwriter-25.04.3::gentoo
+# required by ghostwriter (argument)
+>=dev-libs/libxml2-2.13.8-r2 icu
+# required by dev-qt/qtx11extras-5.15.17::gentoo
+# required by media-gfx/renderdoc-1.36::gentoo[qt5]
+# required by renderdoc (argument)
+>=dev-qt/qtgui-5.15.17 X
+# required by x11-libs/pango-1.57.0::gentoo
+# required by app-editors/vscode-1.105.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.14.1-r1 harfbuzz
+# required by dev-qt/qtwebengine-6.9.3::gentoo[vaapi]
+# required by app-editors/ghostwriter-25.08.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libva-2.22.0-r1 X
+# required by media-libs/mesa-25.3.0::gentoo[vulkan]
+# required by app-editors/vscode-1.106.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libdisplay-info-0.3.0 abi_x86_32
+# required by media-libs/vulkan-loader-1.4.328.0-r1::gentoo[layers]
+# required by app-editors/zed-0.213.8::gentoo
+# required by app-editors/zed (argument)
+>=media-libs/vulkan-layers-1.4.328.0 X
+# required by dev-python/reportlab-4.4.5::gentoo
+# required by reportlab (argument)
+>=dev-python/pillow-11.3.0 truetype tiff
+# required by dev-python/pillow-11.3.0::gentoo[-test,tiff]
+# required by dev-python/reportlab-4.4.5::gentoo
+# required by reportlab (argument)
+>=media-libs/tiff-4.7.0-r1 jpeg

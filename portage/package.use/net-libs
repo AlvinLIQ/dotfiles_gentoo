@@ -1,0 +1,8 @@
+# required by app-emulation/libvirt-10.10.0-r1::gentoo[virt-network]
+# required by dev-python/libvirt-python-10.10.0::gentoo
+>=net-dns/dnsmasq-2.90 script
+# required by app-crypt/swtpm-0.9.0::gentoo
+# required by app-emulation/libvirt-10.10.0-r1::gentoo[qemu]
+# required by dev-python/libvirt-python-10.10.0::gentoo
+>=net-libs/gnutls-3.8.8 pkcs11 tools
+net-libs/libssh server

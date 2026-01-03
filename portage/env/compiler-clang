@@ -1,0 +1,13 @@
+COMMON_FLAGS="-O2 -march=native -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+
+CC="clang"
+CPP="clang-cpp" # necessary for xorg-server and possibly other packages
+CXX="clang++"
+AR="llvm-ar"
+NM="llvm-nm"
+LD="lld"
+RANLIB="llvm-ranlib"
+KERNEL_CC="clang"
+KERNEL_LD="lld"
